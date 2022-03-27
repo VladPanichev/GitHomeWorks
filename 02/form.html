@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=!, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <header>
+        <h1>Registration form</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>First step</legend>
+                <div>What is your name?</div>
+                <input type="text" name="first_name" placeholder="Enter your name">
+                <div>Exnter email</div>
+                <input type="email" placeholder="Enter your email">
+                <div>Create a password</div>
+                <input type="password" placeholder="Enter your password">
+                <div>Confirm a password</div>
+                <input type="password" placeholder="onfirm your password">
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>Second step</legend>
+                <div>Who you are?</div>
+                <select name="Who you are">
+                    <option hidden disabled selected>Choose one</option>
+                    <option value="disigner">Disigner</option>
+                    <option value="programmer">Programmer</option>
+                    <option value="admin">Admin</option>
+                </select>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>Third step</legend>
+                <div>Enter birth date</div>
+                <input type="date" name="birth date" id="birth">
+                <div>Tell about yourself</div>
+                <textarea name="about"></textarea>
+            </fieldset>
+        </form>
+        <label><input type="checkbox" name="agree" value="rules">I agree to the <a href="#">privacy policy</a> and <a href="#">terms of use</a></label>
+        <br>
+        <button type="submit">Submir registration</button>
+    </main> 
+</body>
+</html>
